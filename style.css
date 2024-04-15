@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav button{
+    width: 200px;
+    height: 60px;
+    border-radius: 40px;
+    background: linear-gradient(90deg, #bee2ff, #f1c9ff);
+    font-size: 15px;
+    color: black;
+    transition: 0.2s;
+}
+nav button:hover {
+    background: linear-gradient(90deg, #7cc4ff, #db77ff);
+    color: white;
+    font-size: 15.5px;
+}
+nav {
+    font-family: 'Poppins';
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+nav a {
+    padding-left: 50px;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    transition: 0.2s;
+}
+nav a:hover {
+    color: rgb(111, 151, 180);
+}
+.logo { 
+    width: 90px;
+    border-radius: 100%;
+    margin-right: 100px;
+
+}
+.video-container {
+    position: relative;
+    width: 100%; /* Ajuste conforme necessário */
+    max-width: 800px; /* Ajuste conforme necessário */
+    margin: 0 auto;
+  }
+  
+  .video-container video {
+    width: 100%;
+    height: auto; /* Mantém a proporção original do vídeo */
+    display: block;
+  }
